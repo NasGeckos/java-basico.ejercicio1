@@ -9,8 +9,8 @@ public class Ejercicio2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un el valor del articulo para sumar el Iva:");
         int numero = scanner.nextInt();
-        int iva = (int) (numero * 0.21);
-        int total = numero + iva;
+        double iva = numero * 0.21;
+        double total = numero + iva;
         System.out.println("El valor total con iva es: $" + total);
     }
 }
